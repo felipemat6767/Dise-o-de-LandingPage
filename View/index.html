@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/fontawesome/css/all.min.css">
+
+    <title>Pagina De ejercicio</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="logo" id="logo">
+            <img src="../img/logo.png" alt="Logo">
+        </div>
+
+        <div class="menu-bar" id="menuBar">
+            <nav class="titulo" id="titulo">
+                Bienvenido a la Pagina Principal
+            </nav>
+
+            <div class="sociales">
+                <!-- Fab-fa son los iconos de fontawesome -->
+                <a href="#"><span class="fab fa-facebook"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="subtitulos">Carrusel de Imágenes</h3>
+    <div class="sliderprincipal">
+        <ul class="carrusel-fotos">
+            <li id="fotocarrusel1"><img src="../img/Foto1.jpg"></li>
+            <li id="fotocarrusel2"><img src="../img/Foto2.jpg"></li>
+            <li id="fotocarrusel3"><img src="../img/Foto3.jpg"></li>
+        </ul>
+        <ul class="carrusel-menu">
+            <li><a href="#fotocarrusel1"><img src="../img/Foto1.jpg"></a></li>
+            <li><a href="#fotocarrusel2"><img src="../img/Foto2.jpg"></a></li>
+            <li><a href="#fotocarrusel3"><img src="../img/Foto3.jpg"></a></li>
+        </ul>
+    </div>
+    <!-- MENU PRINCIPAL -->
+    <h3 class="subtitulos">Menu Principal</h3>
+    <div id="menu-principal">
+        <div class="menu-container">
+            <div class="descripcion items-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+                sequi temporibus. Natus est delectus, hic temporibus minima aliquam ab esse consequuntur quae, nobis,
+                facere odit neque quos pariatur accusaus odio. Corrupti, culpa. Saepe facere veritatis sequi debitis
+                repellat nemo eligendi dolor? Libero, odio. At quas soluta incidunt ut atque, exercitationem modi
+                consequatur.
+            </div>
+            <div class="items-menu formulario">
+                <form action="" id="formulario">
+                    <div class="campos-form">
+                        <div class="inputconicon">
+                            <input type="text" name="nombre" id="nombre" class="input-text" placeholder="Nombre"
+                                minlength="5" maxlength="40">
+                            <i class="fas fa-user"></i>
+                        </div>
+
+                        <div class="inputconicon">
+                            <input type="text" name="apellido" id="apellido" class="input-apellido" placeholder="Apellido">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="campos-form">
+                        <div class="inputconicon">
+                            <input type="numero" name="numero" id="numero" class="input-numero"
+                                placeholder="Numero de Contacto">
+                                <i class="fas fa-phone-volume"></i>
+                            
+                        </div>
+                        <div class="inputconicon">
+                            <input type="edad" name="edad" id="edad" class="input-edad" placeholder="Edad">
+                            <i class="fas fa-divide"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="email inputconicon">
+                        <input type="email" name="email" id="email" class="input-email" placeholder="Email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="btn-form">
+                        <input type="submit" class="btn btn-input" value="Enviar">
+                    </div>
+                </form>
+            </div>
+
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="contenido-modal">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2 class="center">Muchas gracias por comunicarse con nosotros</h2>
+                    </div>
+                    <div class="modal-body">
+                        <span id="Respuesta-form" class=""></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- carrusel de Imagenes -->
+    <h3 class="subtitulos">Imágenes con Scroll</h3>
+    <div id="seccion-carrusel">
+        <div class="contenedor-carrusel">
+            <button id="btn-izq"><span class="fas fa-angle-left"></button>
+            <div class="slider">
+                <div class="elemento-slider">
+                    <div class="descripcion-productos">
+                        <h1>Paisaje 1 </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt voluptatibus
+                        voluptatem officiis officia.
+                        </p>
+                        <button class="btn">Mas informacion <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="imagen-producto">
+                        <img src="../img/Paisaje3.jpg">
+                    </div>
+                </div>
+                <div class="elemento-slider">
+                    <div class="descripcion-productos">
+                        <h1>Paisaje 2 </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt voluptatibus
+                            voluptatem officiis officia.
+                        </p>
+                        <button class="btn">Mas Informacion<span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="imagen-producto">
+                        <img src="../img/Paisaje2.jpg">
+                    </div>
+                </div>
+                <div class="elemento-slider">
+                    <div class="descripcion-productos">
+                        <h1>Paisaje 3</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt voluptatibus
+                            voluptatem officiis officia.
+                        </p>
+                        <button class="btn">Mas informacion <span class="fas fa-angle-right"></span></button>
+                    </div>
+
+                    <div class="imagen-producto">
+                        <img src="../img/Paisaje1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <button id="btn-der"><span class="fas fa-angle-right"></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="sociales-metodo">
+            <i class="fas fa-external-link-alt"></i>
+            <span>Su logo de empresa iria aqui.</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fas fa-envelope"></i>
+            <span class="contacto">
+                <a href="#contacto">Nosotros
+                </a><br>
+                <a href="#Nosotros">Contacto
+                </a><br>
+                <a href="#Info">Info
+                </a>
+            </span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fas fa-wallet"></i>
+            <p id="current_date"></p>
+        </div>
+
+        <div class="Copyright-Link">
+            <i class="Elementos-Copyright-Link">
+                <a href="https://github.com/felipemat6767/Dise-o-de-LandingPage.git">Ir a Repositorio
+                </a>
+                <span>CopyRight 2022 </span>
+            </i>
+        </div>
+    </footer>
+</body>
+
+
+<script src="../js/app.js"></script>
+
+</html>
